@@ -702,14 +702,6 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
           props.styles.poweredContainer,
         ]}
       >
-        <Image
-          style={[
-            props.suppressDefaultStyles ? {} : defaultStyles.powered,
-            props.styles.powered,
-          ]}
-          resizeMode='contain'
-          source={require('./images/powered_by_google_on_white.png')}
-        />
       </View>
     );
   };
